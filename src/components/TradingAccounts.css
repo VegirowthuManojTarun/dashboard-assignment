@@ -1,0 +1,148 @@
+.trading-accounts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trading-accounts,
+.open-trades {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trading-accounts h2,
+.open-trades h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.open-trade-left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-card,
+.trade-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 16px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.account-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.account-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.account-type {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.account-platform {
+  font-size: 0.9rem;
+  background-color: #e0e7ff;
+  padding: 5px 10px;
+  border-radius: 12px;
+  color: #3730a3;
+}
+
+.account-number {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.account-balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.balance {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.currency {
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.external-link-icon {
+  font-size: 1.2rem;
+  color: #6b7280;
+}
+
+.open-trades .trade-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trade-info {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.trade-pair {
+  font-size: 1rem;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.trade-direction {
+  font-size: 0.9rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.long {
+  background-color: #ecfdf5;
+  color: #047857;
+}
+
+.short {
+  background-color: #fef2f2;
+  color: #b91c1c;
+}
+
+.trade-profit {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.positive {
+  color: #16a34a;
+}
+
+.negative {
+  color: #dc2626;
+}
+
+.trade-lot {
+  font-size: 1rem;
+  color: #6b7280;
+}
