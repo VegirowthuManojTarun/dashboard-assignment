@@ -7,7 +7,7 @@ import 'chart.js/auto';
 const OverviewChart = () => {
   const [activeTab, setActiveTab] = useState('Yearly');
 
-  // Sample data for the chart
+  // Sample data 
   const data = {
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     datasets: [

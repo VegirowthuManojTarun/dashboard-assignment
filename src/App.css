@@ -1,16 +1,15 @@
 .app-container {
-  display: flex;              /* Enable flexbox layout */
-  height: 100vh;              /* Take up full viewport height */
-  overflow: hidden;           /* Hide overflow if necessary */
+  display: flex;             
+  height: 100vh;             
+  overflow: hidden;
 }
 
 .main-content {
-  flex-grow: 1;               /* Take up remaining space in the container */
+  flex-grow: 1;              
   display: flex;
-  flex-direction: column;     /* Align items in a column */
-  background-color: #f8f9fa;  /* Optional: background color for content */          /* Padding around the content */
-  overflow-y: auto;           /* Enable scrolling for content if necessary */
-}
+  flex-direction: column;    
+  background-color: #f8f9fa; 
+  overflow-y: auto;}
 
 .dashboard-section{
   padding: 20px;
